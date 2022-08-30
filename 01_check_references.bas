@@ -5,7 +5,7 @@ Sub check_reference()
 Dim vbProj As Object ' Current VBA project.
 Dim chkRef As Object ' Reference object.
 
-' Refer to the activedocument's VBA project.
+' Refer to the current document's VBA project.
 Set vbProj = ActiveDocument.VBProject
 
 ' Check through all selected references in the "References" dialog box.
